@@ -27,12 +27,6 @@ body {
 
 
 }
-.brand-logo{
-    
-    font-family: 'Tangerine', serif;
-    font-size: 48px;
-
-}
 .navtabsfont{
     font-family: "Comic Sans MS", Halvetica, sans-serif;
     font-size: 20px;
@@ -47,6 +41,20 @@ body {
 /* Right-aligned link */
 .navbar a.right {
   float: right;
+}
+
+.brand-logo{
+    
+    font-family: 'Tangerine', serif;
+    font-size: 48px;
+
+}
+
+.isDisabled{
+    color: currentColor;
+    cursor: not-allowed;
+    opacity: 1;
+    text-decoration: none;
 }
 /* Center-aligned link*/
 .navbar a.center{
@@ -128,10 +136,4 @@ body {
 
 
 
-.isDisabled{
-    color: currentColor;
-    cursor: not-allowed;
-    opacity: 1;
-    text-decoration: none;
-}
 
