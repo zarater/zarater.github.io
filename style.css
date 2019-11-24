@@ -55,6 +55,7 @@ body {
     cursor: not-allowed;
     opacity: 1;
     text-decoration: none;
+    width: 100%
 }
 /* Center-aligned link*/
 .navbar a.center{
@@ -111,12 +112,6 @@ body {
   .row {
     flex-direction: column;
   }
-   .navbar a.center{
-            position: absolute;
-            left: 50%;
-            margin-left: -40px !important;/* 50% of your logo width */
-            display: block;
-    }
 }
 
 /* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
