@@ -51,8 +51,11 @@ body {
 .navbar a.center{
     position: absolute;
     left: 50%;
+    transform: translateX(-50%);
     margin-left: -90px !important;/* 50% of your logo width */
     display: block;
+
+
 }
 
 /* Change color on hover */
@@ -98,6 +101,12 @@ body {
   .row {
     flex-direction: column;
   }
+   .navbar a.center{
+            position: absolute;
+            left: 50%;
+            margin-left: -40px !important;/* 50% of your logo width */
+            display: block;
+    }
 }
 
 /* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
@@ -105,6 +114,12 @@ body {
     .navbar a {
         float: none;
         width: 100%;
+    }
+    .navbar a.center{
+            position: absolute;
+    left: 50%;
+    margin-left: -40px !important;/* 50% of your logo width */
+    display: block;
     }
 }
 
