@@ -51,8 +51,11 @@ body {
 .navbar a.center{
     position: absolute;
     left: 50%;
+    transform: translateX(-50%);
     margin-left: -90px !important;/* 50% of your logo width */
     display: block;
+
+
 }
 
 /* Change color on hover */
