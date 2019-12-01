@@ -31,6 +31,11 @@ body {
     font-family: "Comic Sans MS", Halvetica, sans-serif;
     font-size: 20px;
 }
+.highlightfont{
+    font-family: "Comic Sans MS", Halvetica, sans-serif;
+    font-size: 17px;
+    color: blue;
+}
 .navbar a:hover{
     border-bottom: 3px solid red;
 }
@@ -71,7 +76,7 @@ body {
 
 /* Change color on hover */
 .navbar a:hover {
-  background-color: #ddd;
+  background-color: none;
   color: black;
 }
 
@@ -80,7 +85,7 @@ body {
 
 /* Column container */
 .row {
-    flex-direction: column;
+    /*flex-direction: column;*/
     display: flex;
     flex-wrap: wrap;
 }
@@ -88,14 +93,14 @@ body {
 /*second*/
 .second{
     text-align: center;
-    flex: 50%;
+    flex: 30%;
     background-color: white;
     padding: 20px;
 }
 /* Main column */
 .main {
     text-align: center;
-    flex: 50%;
+    flex: 70%;
     background-color: white;
     padding: 20px;
 }
@@ -114,6 +119,12 @@ body {
         height: auto;
         border-radius: 50%;
 }
+
+
+
+
+
+
 
 /* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 768px) {
