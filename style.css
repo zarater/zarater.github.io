@@ -11,7 +11,12 @@ body {
 /* Style the top navigation bar */
 .navbar {
   overflow: hidden;
+<<<<<<< 0d4d80b93d625954ddd4ce0b27428dc3d39a236b
   background-color: none;
+=======
+  background-color: #333333;
+    /*making some changes*/
+>>>>>>> Some changes to test IDE with webstorm
 }
 
 /* Style the navigation bar links */
