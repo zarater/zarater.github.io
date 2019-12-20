@@ -4,14 +4,16 @@
 
 body {
   font-family: Arial, Helvetica, sans-serif;
-    background-image: url("smallback2.jpg");
+    background-color: white;
+    /*background-image: url("smallback2.jpg");*/
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+/*
     image: url("Zarateletter.jpg");
-
     height: 100vh;
     width: 90vw;
+ */
 }
 
 
@@ -26,9 +28,9 @@ body {
     position: relative;
     float: left;
     display: block;
-    color: #180b0b;/*white*/
+    color: midnightblue; /*#180b0b;*/
     text-align: center;
-    padding: 10px 20px;
+    padding: 20px 20px;
     text-decoration: none;
     border-bottom:3px solid transparent;
 
@@ -88,7 +90,7 @@ body {
 /* Change color on hover */
 .navbar a:hover {
   background-color: transparent;
-  color: black;
+  color: whitesmoke;
 }
 
 
@@ -96,12 +98,32 @@ body {
 .nametitle{
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   font-size: 50px;
+    padding-left: 2%;
+    line-height: 1pt;
 }
 /* Column container */
 .row {
     /*flex-direction: column;*/
     display: flex;
     flex-wrap: wrap;
+    background-color:#e8e1cf ;
+    background-image: url("backgrnd1.jpg");
+    background-position: center;
+}
+
+.Toprow{
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 80px;
+    padding-bottom: 20%;
+
+}
+.Bottomrow{
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 80px;
+    padding-bottom: 20%;
+
 }
 .location{
   padding-top: 15%;
@@ -109,22 +131,55 @@ body {
 
 /*second*/
 .second{
-    text-align: left;
-    flex: 30%;
+    flex: 40%;
     background-color: transparent;
-    padding-left: 2%;
-    padding-top: 8%;
-    line-height: 10pt;
+    text-align: left;
+    padding: 40px;
+
 }
 /* Main column */
 .main {
     text-align: left;
-    flex: 70%;
+    flex: 60%;
     background-color: transparent;
-    padding-left: 2%;
-    line-height: 1pt;
 }
 
+.HeaderModule1{
+    text-align: left;
+    flex: 50%;
+    padding: 20px;
+    background-color: transparent;
+}
+
+.HeaderModule2{
+    text-align: left;
+    flex: 50%;
+    padding: 20px;
+    background-color: transparent;
+}
+
+.FooterModule1{
+
+    text-align: left;
+    flex: 33%;
+    padding: 20px;
+    background-color: transparent;
+}
+.FooterModule2{
+
+    text-align: left;
+    flex: 33%;
+    padding: 20px;
+    background-color: transparent;
+}
+
+.FooterModule3{
+
+    text-align: left;
+    flex: 33%;
+    padding: 20px;
+    background-color: transparent;
+}
 /* Fake image, just for this example */
 /*somestuff*/
 .fakeimg {
@@ -133,14 +188,27 @@ body {
   padding: 20px;
 }
 
-.imgOval{
+.ImgOval{
 
-        max-width: 100%;
-        height: auto;
-        border-radius: 50%;
+        max-width: 80%;
+        height: 600px;
+        /*border-radius: 90%;*/
 }
+/* Footer */
+.iconbar{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: transparent;
+    color: white;
+    text-align: center;
 
-
+    padding: 20px;
+    text-align: center;
+    border-top: 1px solid rgba(0,0,0,0.5);
+    border-bottom: 1px solid rgba(0,0,0,0.5);
+}
 
 
 
@@ -164,16 +232,7 @@ body {
     }
 }
 
-/* Footer */
-.footer {
-  padding: 20px;
-  text-align: center;
-  background: #ddd;
-}
-.iconbar{
-border-top: 1px solid rgba(0,0,0,0.5);
-border-bottom: 1px solid rgba(0,0,0,0.5);
-}
+
 
 
 
